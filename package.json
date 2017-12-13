@@ -6,7 +6,8 @@
     "scripts": {
         "test": "coffee make test",
         "dist": "coffee make dist",
-        "start": "coffee test/server.coffee"
+        "start": "coffee test/server.coffee",
+        "build": "MODULES='zepto event ajax form ie deferred callbacks fx' coffee make dist"
     },
     "repository": "madrobby/zepto",
     "license": "MIT",
